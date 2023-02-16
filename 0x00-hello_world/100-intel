@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc gcc.exe $CFILE -masm=intel -mconsole
+gcc -masm=intel -save-temps -S $CFILE
