@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/*
-* Print somthing using puts()
+/**
+*	main: Print a string using puts
+*	
+*	Return: 0 is success
 */
 int main(void)
 {
