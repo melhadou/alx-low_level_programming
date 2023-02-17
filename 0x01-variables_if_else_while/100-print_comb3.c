@@ -22,7 +22,7 @@ void	print_numbers(int n1, int n2)
 	*/
 int	main(void)
 {
- 	int a;
+	int	a;
 	int	b;
 
 	a = '0';
