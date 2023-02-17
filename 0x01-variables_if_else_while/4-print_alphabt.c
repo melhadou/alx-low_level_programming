@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all alphabets
+ * main - print alphabetic except q and e
  * Return: 0 in case of success
  */
 int main(void)
@@ -11,12 +11,8 @@ int main(void)
 	a = 'a';
 	while (a <= 'z')
 	{
-		putchar(a);
-		a++;
-	}
-	a = 'A';
-	while (a <= 'Z')
-	{
+		if (a == 'e' || a == 'q')
+			a++;
 		putchar(a);
 		a++;
 	}
