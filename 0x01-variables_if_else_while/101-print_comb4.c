@@ -6,7 +6,7 @@
 	* @n2: second number
 	* @n3: third number
 	*/
-void	print_numbers(char n1, char n2, char n3)
+void	print_numbers(int n1, int n2, int n3)
 {
 	putchar(n1);
 	putchar(n2);
@@ -24,9 +24,9 @@ void	print_numbers(char n1, char n2, char n3)
 	*/
 int	main(void)
 {
-	char	a;
-	char	b;
-	char	c;
+	int	a;
+	int	b;
+	int	c;
 
 	a = '0';
 	while (a <= '7')

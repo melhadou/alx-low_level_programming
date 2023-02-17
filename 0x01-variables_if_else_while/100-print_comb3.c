@@ -5,7 +5,7 @@
 	* @n1: first number
 	* @n2: second number
 	*/
-void	print_numbers(char n1, char n2)
+void	print_numbers(int n1, int n2)
 {
 	putchar(n1);
 	putchar(n2);
@@ -22,8 +22,8 @@ void	print_numbers(char n1, char n2)
 	*/
 int	main(void)
 {
-	char	a;
-	char	b;
+ 	int a;
+	int	b;
 
 	a = '0';
 	b = '1';
