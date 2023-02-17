@@ -20,7 +20,7 @@ void	print_numbers(int n1, int n2)
 }
 
 /**
-	* print_numbers - print comb of 5
+	* main - print comb of 5
 	* Return: 0 in success
 	*/
 int	main(void)
