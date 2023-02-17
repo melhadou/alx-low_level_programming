@@ -6,6 +6,14 @@
  */
 int main(void)
 {
-	printf("0123456789\n");
+	int a;
+
+	a = 0;
+	while (a <= 9)
+	{
+		putchar(a + '0');
+		a++;
+	}
+	putchar('\n');
 	return (0);
 }
