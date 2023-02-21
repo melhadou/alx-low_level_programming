@@ -12,7 +12,7 @@ int	main(void)
 	int n;
 
 	i = 0;
-	j = 0;
+	j = 1;
 	n = 0;
 
 	while (n < 50)
