@@ -2,9 +2,9 @@
 
 /**
 	* main - print _putchar
-	* Retrun : 0 in success
+	* Return: 0 in success
 	*/
-int main(void)
+int	main(void)
 {
 	char *str = "_putchar\n";
 	int i = 0;
